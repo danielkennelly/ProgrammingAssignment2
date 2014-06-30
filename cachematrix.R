@@ -25,8 +25,8 @@ makeCacheMatrix <- function(x = matrix()) {
     
     ## make list of functions
     list(set = set, get = get,
-    setinverse = setinverse,
-    getinverse = getinverse)
+        setinverse = setinverse,
+        getinverse = getinverse)
 }
 
 ## cacheSolve: First checks to see if inverse has already been solved.
